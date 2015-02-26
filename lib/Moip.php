@@ -776,7 +776,7 @@ class Moip {
      */
     public function queryParcel($login, $maxParcel, $rate, $simulatedValue) {
         if (!isset($this->credential))
-            $this->setError("You must specify the credentials (token / key) and enriroment");
+            $this->setError("You must specify the credentials (token / key) and environment");
 
 
         $client = new MoipClient();
